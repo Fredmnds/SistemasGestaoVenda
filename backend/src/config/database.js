@@ -6,7 +6,7 @@ module.exports = {
   host: "localhost",
   username: "sa",
   password: "123",
-  database: "trabalho",
+  database: "sistemagestao",
   define: {
     timestamps: true,
   },
