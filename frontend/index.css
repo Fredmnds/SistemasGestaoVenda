@@ -1,0 +1,15 @@
+#background{
+    background: rgb(235, 235, 235);
+}
+
+
+.card .card{
+    box-shadow: 1px 5px 30px rgba(98, 99, 97, 0.842);
+    
+}
+.card-text, .card-title{
+    text-align: center;
+}
+.card-text{
+    font-size: 25px;
+}

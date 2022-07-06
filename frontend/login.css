@@ -1,0 +1,52 @@
+#login{
+    width: 450px;
+    box-shadow: 1px 5px 30px rgba(140, 141, 137, 0.842);
+    border-radius: 15px;
+}
+#background{
+    background: rgb(235, 235, 235);
+}
+form button{
+    width: 315px;
+    transition: .4s ease;
+    color: rgb(red, green, rgba(45, 45, 187, 0.527));
+}
+.logo23{
+    display: none;
+}
+.main-ct2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width:1px) and (max-width:980px){ 
+    .logo{
+        display: none;
+    }
+    
+    form{
+        left: 50%;
+    }
+    
+    .w-sec{
+        width: 100%;
+    }
+    
+    #login{
+        box-shadow: none;
+    }
+    
+    .main-ct2{
+        display: block;
+    }
+    
+    .logo23{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header p{
+        display: none;
+    }
+}
