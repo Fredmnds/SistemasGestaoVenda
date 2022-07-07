@@ -29,7 +29,7 @@ module.exports = {
 
     await queryInterface.bulkInsert('usuarios', [
       {
-        nome: 'Jãozinho Silva',
+        nome: 'Fred',
         senha: '123',
         updatedAt: new Date(),
         createdAt: new Date()
